@@ -1,5 +1,5 @@
 javascript: (() => {
-    let ele = document.body;
+    let ele = document.documentElement;
     if (ele) {
         if (ele.requestFullscreen) {
             ele.requestFullscreen();
